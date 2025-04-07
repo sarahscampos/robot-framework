@@ -1,11 +1,11 @@
 *** Settings ***
 Library    SeleniumLibrary
 *** Variables ***
-${input_name}    id:fullname
-${input_email}    id:email
-${textarea_address}    id:address
-${input_password}    id:password
-${button_submit}    class:btn-primary
+${input_name}    //*[@id="fullname"]
+${input_email}    //*[@id="email"]
+${textarea_address}    //*[@id="address"]
+${input_password}    //*[@id="password"]
+${button_submit}    //*[@id="TextForm"]/div[5]/input
 
 *** Keywords ***
 abrir navegador e acessar site
