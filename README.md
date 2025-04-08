@@ -12,7 +12,7 @@
 
 - **robot -d results -i regressivo Testes** ▶ executa os cenários dos arquivos na pasta Testes que possuem a tag *regressivo*
 
-## Estrutura do projeto
+## Estrutura de projeto
 <img width="846" alt="robot_framework_estruturacao (2)" src="https://github.com/user-attachments/assets/2bb0d8f8-20e1-4dc5-b667-44bd436cab5d" />
 
 ### Explicação da estrutura 
