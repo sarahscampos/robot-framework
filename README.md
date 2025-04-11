@@ -2,7 +2,7 @@
 ## Biblioteca utilizada: [SeleniumLibrary](https://robotframework.org/SeleniumLibrary)
 - Para instalar: `pip install --upgrade robotframework-seleniumlibrary`
 
-## Formas de Execução
+## Formas de execução
 *Nomes de arquivos/pastas/tags utilizados somente como exemplo*
 - **robot -d results bdd.robot** ▶ cria pasta para resultados do teste
 
@@ -19,6 +19,14 @@
 Duas pastas principais: resources e suits. Em resources temos 3 pastas e 1 arquivo: data (para os dados de testes), pages (para todos os elementos e keywords da página), shared (arquivos compartilhados), arquivo main (importa todos os recursos dos testes e todos os outros arquivos importam o main).
 Em suits separamos por categoria/perfil.
 
+## Boas práticas
+1. Não colocar Keywords da library diretamente no test case
+2. Nunca colocar elementos (xpath, id, css selector) diretamente nas keywords
+3. Sempre utilizar "Wait Until Element Is Visible" ao realizar interações com o elemento
+4. Preferir utilizar o "Wait Until Element Is Visible" a utilizar o "Sleep"
+5. Utilize um padrão de projeto caso vá desenvolver um projeto de automação grande
+6. Olhe o log da sua execução em caso de falha
+7. Otimize seu código
 
 
 
