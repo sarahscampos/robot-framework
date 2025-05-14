@@ -19,6 +19,10 @@
 Duas pastas principais: resources e suits. Em resources temos 3 pastas e 1 arquivo: data (para os dados de testes), pages (para todos os elementos e keywords da página), shared (arquivos compartilhados), arquivo main (importa todos os recursos dos testes e todos os outros arquivos importam o main).
 Em suits separamos por categoria/perfil.
 
+## Tipos de execução de testes recorrentes
+- **Suite Setup/Teardown:** Executado antes/depois de todos os testes em uma suite.
+- **Test Setup/Teardown:** Executado antes/depois de cada teste individual.
+
 ## Boas práticas
 1. Não colocar Keywords da library diretamente no test case
 2. Nunca colocar elementos (xpath, id, css selector) diretamente nas keywords
